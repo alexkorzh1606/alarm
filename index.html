@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+    <script src="code.js" defer></script>
+    <title>Alarm</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">WEB-ALARM</h1>
+        <div class="time">
+            <h2 class="time_title">CURRENT TIME IS</h2>
+            <div class="clock">
+                <p class="hours"></p>
+                <p class="separator"> : </p>
+                <p class="minutes"></p>
+                <p class="separator"> : </p>
+                <p class="seconds"></p>
+            </div>
+        </div>
+        <div class="alarm">
+            <h2 class="alarm_title">SET YOUR ALARM</h2>
+            <input type="time" name="alarm-set" id="alarm-set-input" class="alarm_input" min="00:00" max="23:59" required/>
+            <button class="alarm_button" id="alarm-set-button">SET ALARM</button>
+        </div>
+    </div>
+</body>
+</html>
